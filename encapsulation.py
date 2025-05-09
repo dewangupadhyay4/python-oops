@@ -23,3 +23,9 @@ print("Balance ",acc.get_balance())
 acc.deposit(50000)
 acc.withdraw(10000)
 print("Updated balance is: ",acc.get_balance())
+
+
+# Modifier	Syntax	Access Level
+# Public	var	Accessible anywhere
+# Protected	_var	Accessible in class and subclass
+# Private	__var	Accessible only in the class (name mangled)
